@@ -1,186 +1,379 @@
 {
-    "Device": [
+  "Device": [
+    {
+      "name": "iPhone 4",
+      "condition1": "Model 3,1 and 3,2",
+      "condition2": "Every iOS Version",
+      "records": [
         {
-            "name": "iPhone 4",
-            "condition1": "Model 3,1 and 3,2",
-            "condition2": "Every iOS Version",
-            "records": [
-                {
-                    "date": "31 July 2026",
-                    "model": "iPhone3,1",
-                    "region": "?",
-                    "ios": "4.1",
-                    "result": "Failed on computer"
-                },
-                {
-                    "date": "7 August 2026",
-                    "model": "iPhone3,1",
-                    "region": "?",
-                    "ios": "7.1.2",
-                    "result": "Failed on device"
-                }
-            ]
+          "date": "31 July 2026",
+          "model": "iPhone3,1",
+          "region": "Unknown",
+          "tests": [
+            {
+              "ios": "4.1",
+              "result": {
+                "device": "Unknown",
+                "computer": "Failed",
+                "legacy_ios_kit": "Unknown"
+              }
+            }
+          ]
         },
         {
-            "name": "iPhone 4s",
-            "condition1": "Cellular IMEI 9900",
-            "condition2": "Every iOS Version",
-            "records": [
-                {
-                    "date": "7 August 2026",
-                    "model": "iPhone4,1",
-                    "region": "LL/A",
-                    "ios": "5.0; 8.0.1; 9.3.6",
-                    "result": "Failed on device & computer; Success on computer; Failed on device & computer"
-                }
-            ]
-        },
-        {
-            "name": "iPhone 5",
-            "condition1": "Cellular IMEI 9900",
-            "condition2": "Every iOS Version",
-            "records": [
-                {
-                    "date": "7 August 2026",
-                    "model": "iPhone5,2",
-                    "region": "CH/A",
-                    "ios": "8.4.1, 10.3.4",
-                    "result": "Success on device"
-                },
-                {
-                    "date": "7 August 2026",
-                    "model": "iPhone5,2",
-                    "region": "J/A",
-                    "ios": "10.3.4",
-                    "result": "Success on device"
-                },
-                {
-                    "date": "7 August 2026",
-                    "model": "iPhone5,2",
-                    "region": "LL/A",
-                    "ios": "8.4.1; 9.0.1; 9.0.2; 10.3.3; 10.3.4",
-                    "result": "Success on device"
-                },
-                {
-                    "date": "7 August 2026",
-                    "model": "iPhone5,2",
-                    "region": "LL/A",
-                    "ios": "6.1.3",
-                    "result": "Success on device"
-                }
-            ]
-        },
-        {
-            "name": "iPad 3",
-            "condition1": "Cellular IMEI 013",
-            "condition2": "Every iOS Version",
-            "records": [
-                {
-                    "date": "30 July 2026",
-                    "model": "iPad3,3",
-                    "region": "J/A",
-                    "ios": "?",
-                    "result": "Success on device"
-                },
-                {
-                    "date": "30 July 2026",
-                    "model": "iPad3,3",
-                    "region": "J/A",
-                    "ios": "?",
-                    "result": "Success on device"
-                },
-                {
-                    "date": "31 July 2026",
-                    "model": "iPad3,3",
-                    "region": "CH/A",
-                    "ios": "?",
-                    "result": "Success on device"
-                },
-                {
-                    "date": "31 July 2026",
-                    "model": "iPad3,3",
-                    "region": "CH/A",
-                    "ios": "?",
-                    "result": "Success on device"
-                },
-                {
-                    "date": "31 July 2026",
-                    "model": "iPad3,3",
-                    "region": "CH/A",
-                    "ios": "?",
-                    "result": "Success on device"
-                },
-                {
-                    "date": "31 July 2026",
-                    "model": "iPad3,3",
-                    "region": "ZP/A",
-                    "ios": "?",
-                    "result": "Success on device"
-                },
-                {
-                    "date": "7 August 2026",
-                    "model": "iPad3,3",
-                    "region": "?",
-                    "ios": "?",
-                    "result": "Success on device"
-                }
-            ]
-        },
-        {
-            "name": "iPad 4",
-            "condition1": "Cellular IMEI 9900",
-            "condition2": "Every iOS Version",
-            "records": [
-                {
-                    "date": "7 August 2026",
-                    "model": "iPad3,6",
-                    "region": "LL/A",
-                    "ios": "6.1.2",
-                    "result": "Success on Legacy iOS Kit"
-                },
-                {
-                    "date": "7 August 2026",
-                    "model": "iPad3,6",
-                    "region": "ZP/A",
-                    "ios": "6.1.2",
-                    "result": "Success on device"
-                },
-                {
-                    "date": "7 August 2026",
-                    "model": "iPad3,5",
-                    "region": "CH/A",
-                    "ios": "7.1.1",
-                    "result": "Success on device"
-                }
-            ]
-        },
-        {
-            "name": "iPad mini 4",
-            "condition1": "Wi-Fi",
-            "condition2": "-",
-            "records": [
-                {
-                    "date": "17 July 2026",
-                    "model": "iPad5,1",
-                    "region": "CH/A",
-                    "ios": "11.2.6",
-                    "result": "Success on device"
-                }
-            ]
-        },
-        {
-            "name": "iPod Touch 6",
-            "condition1": "iOS 8 to iOS 10.1.x",
-            "condition2": "-",
-            "records": [
-                {
-                    "date": "7 August 2026",
-                    "model": "iPod7,1",
-                    "region": "CH/A",
-                    "ios": "10.0.1, 10.1.1",
-                    "result": "Failed on device"
-                }
-            ]
+          "date": "7 August 2026",
+          "model": "iPhone3,1",
+          "region": "Unknown",
+          "tests": [
+            {
+              "ios": "7.1.2",
+              "result": {
+                "device": "Failed",
+                "computer": "Unknown",
+                "legacy_ios_kit": "Unknown"
+              }
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "name": "iPhone 4s",
+      "condition1": "Cellular IMEI 9900",
+      "condition2": "Every iOS Version",
+      "records": [
+        {
+          "date": "7 August 2026",
+          "model": "iPhone4,1",
+          "region": "LL/A",
+          "tests": [
+            {
+              "ios": "5.0",
+              "result": {
+                "device": "Failed",
+                "computer": "Success",
+                "legacy_ios_kit": "Unknown"
+              }
+            },
+            {
+              "ios": "8.0.1",
+              "result": {
+                "device": "Failed",
+                "computer": "Success",
+                "legacy_ios_kit": "Unknown"
+              }
+            },
+            {
+              "ios": "9.3.6",
+              "result": {
+                "device": "Failed",
+                "computer": "Failed",
+                "legacy_ios_kit": "Unknown"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iPhone 5",
+      "condition1": "Cellular IMEI 9900",
+      "condition2": "Every iOS Version",
+      "records": [
+        {
+          "date": "7 August 2026",
+          "model": "iPhone5,2",
+          "region": "CH/A",
+          "tests": [
+            {
+              "ios": "10.3.4",
+              "result": {
+                "device": "Success",
+                "computer": "Unknown",
+                "legacy_ios_kit": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "date": "7 August 2026",
+          "model": "iPhone5,2",
+          "region": "J/A",
+          "tests": [
+            {
+              "ios": "10.3.4",
+              "result": {
+                "device": "Success",
+                "computer": "Unknown",
+                "legacy_ios_kit": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "date": "7 August 2026",
+          "model": "iPhone5,2",
+          "region": "LL/A",
+          "tests": [
+            {
+              "ios": "8.4.1",
+              "result": {
+                "device": "Success",
+                "computer": "Unknown",
+                "legacy_ios_kit": "Unknown"
+              }
+            },
+            {
+              "ios": "9.0.1",
+              "result": {
+                "device": "Success",
+                "computer": "Unknown",
+                "legacy_ios_kit": "Unknown"
+              }
+            },
+            {
+              "ios": "9.0.2",
+              "result": {
+                "device": "Success",
+                "computer": "Unknown",
+                "legacy_ios_kit": "Unknown"
+              }
+            },
+            {
+              "ios": "10.3.3",
+              "result": {
+                "device": "Success",
+                "computer": "Unknown",
+                "legacy_ios_kit": "Unknown"
+              }
+            },
+            {
+              "ios": "10.3.4",
+              "result": {
+                "device": "Success",
+                "computer": "Unknown",
+                "legacy_ios_kit": "Unknown"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iPad 3",
+      "condition1": "Cellular IMEI 013",
+      "condition2": "Every iOS Version",
+      "records": [
+        {
+          "date": "30 July 2026",
+          "model": "iPad3,3",
+          "region": "J/A",
+          "tests": [
+            {
+              "ios": "Unknown",
+              "result": {
+                "device": "Success",
+                "computer": "Unknown",
+                "legacy_ios_kit": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "date": "30 July 2026",
+          "model": "iPad3,3",
+          "region": "J/A",
+          "tests": [
+            {
+              "ios": "Unknown",
+              "result": {
+                "device": "Success",
+                "computer": "Unknown",
+                "legacy_ios_kit": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "date": "31 July 2026",
+          "model": "iPad3,3",
+          "region": "CH/A",
+          "tests": [
+            {
+              "ios": "Unknown",
+              "result": {
+                "device": "Success",
+                "computer": "Unknown",
+                "legacy_ios_kit": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "date": "31 July 2026",
+          "model": "iPad3,3",
+          "region": "CH/A",
+          "tests": [
+            {
+              "ios": "Unknown",
+              "result": {
+                "device": "Success",
+                "computer": "Unknown",
+                "legacy_ios_kit": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "date": "31 July 2026",
+          "model": "iPad3,3",
+          "region": "CH/A",
+          "tests": [
+            {
+              "ios": "Unknown",
+              "result": {
+                "device": "Success",
+                "computer": "Unknown",
+                "legacy_ios_kit": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "date": "31 July 2026",
+          "model": "iPad3,3",
+          "region": "ZP/A",
+          "tests": [
+            {
+              "ios": "Unknown",
+              "result": {
+                "device": "Success",
+                "computer": "Unknown",
+                "legacy_ios_kit": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "date": "7 August 2026",
+          "model": "iPad3,3",
+          "region": "Unknown",
+          "tests": [
+            {
+              "ios": "Unknown",
+              "result": {
+                "device": "Success",
+                "computer": "Unknown",
+                "legacy_ios_kit": "Unknown"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iPad 4",
+      "condition1": "Cellular IMEI 9900",
+      "condition2": "Every iOS Version",
+      "records": [
+        {
+          "date": "7 August 2026",
+          "model": "iPad3,6",
+          "region": "LL/A",
+          "tests": [
+            {
+              "ios": "6.1.2",
+              "result": {
+                "device": "Unknown",
+                "computer": "Unknown",
+                "legacy_ios_kit": "Success"
+              }
+            }
+          ]
+        },
+        {
+          "date": "7 August 2026",
+          "model": "iPad3,6",
+          "region": "ZP/A",
+          "tests": [
+            {
+              "ios": "6.1.2",
+              "result": {
+                "device": "Success",
+                "computer": "Unknown",
+                "legacy_ios_kit": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "date": "7 August 2026",
+          "model": "iPad3,5",
+          "region": "CH/A",
+          "tests": [
+            {
+              "ios": "7.1.1",
+              "result": {
+                "device": "Success",
+                "computer": "Unknown",
+                "legacy_ios_kit": "Unknown"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iPad mini 4",
+      "condition1": "Wi-Fi",
+      "condition2": "-",
+      "records": [
+        {
+          "date": "17 July 2026",
+          "model": "iPad5,1",
+          "region": "CH/A",
+          "tests": [
+            {
+              "ios": "11.2.6",
+              "result": {
+                "device": "Success",
+                "computer": "Unknown",
+                "legacy_ios_kit": "Unknown"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iPod Touch 6",
+      "condition1": "iOS 8 to iOS 10.1.x",
+      "condition2": "-",
+      "records": [
+        {
+          "date": "7 August 2026",
+          "model": "iPod7,1",
+          "region": "CH/A",
+          "tests": [
+            {
+              "ios": "10.0.1",
+              "result": {
+                "device": "Failed",
+                "computer": "Unknown",
+                "legacy_ios_kit": "Unknown"
+              }
+            },
+            {
+              "ios": "10.1.1",
+              "result": {
+                "device": "Failed",
+                "computer": "Unknown",
+                "legacy_ios_kit": "Unknown"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
