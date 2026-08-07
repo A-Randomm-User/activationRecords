@@ -11,6 +11,13 @@
                     "region": "?",
                     "ios": "4.1",
                     "result": "Failed on computer"
+                },
+                {
+                    "date": "7 August 2026",
+                    "model": "iPhone3,1",
+                    "region": "?",
+                    "ios": "7.1.2",
+                    "result": "Failed on device"
                 }
             ]
         },
