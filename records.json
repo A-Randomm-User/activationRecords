@@ -51,14 +51,14 @@
               "ios": "5.0",
               "result": {
                 "device": "Failed",
-                "computer": "Success",
+                "computer": "Failed",
                 "legacy_ios_kit": "Unknown"
               }
             },
             {
               "ios": "8.0.1",
               "result": {
-                "device": "Failed",
+                "device": "Unknown",
                 "computer": "Success",
                 "legacy_ios_kit": "Unknown"
               }
