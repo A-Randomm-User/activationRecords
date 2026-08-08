@@ -324,6 +324,28 @@
       ]
     },
     {
+      "name": "iPad mini 1",
+      "condition1": "Cellular IMEI 9900",
+      "condition2": "Every iOS Version",
+      "records": [
+        {
+          "date": "8 August 2026",
+          "model": "iPad2,7",
+          "region": "CH/A",
+          "tests": [
+            {
+              "ios": "6.0.2",
+              "result": {
+                "device": "Unknown",
+                "computer": "Unknown",
+                "legacy_ios_kit": "Success"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "iPad mini 4",
       "condition1": "Wi-Fi",
       "condition2": "-",
